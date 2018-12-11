@@ -4,6 +4,7 @@
   roles:
     - { role: base, tags: ['base'] }
     - { role: nettools, tags: ['nettools'] }
+    - { role: dev, tags: ['dev'] }
   vars_prompt:
     - name: user_password
       prompt: "Enter desired user password"
