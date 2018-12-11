@@ -30,4 +30,4 @@
   service: name="user@{{ user.uid }}" state=started
   notify: stop systemd per-user instance
   tags:
-- user
+    - user

@@ -13,4 +13,4 @@
     - zsh
     - zsh-completions
   tags:
-- shell
+    - shell
