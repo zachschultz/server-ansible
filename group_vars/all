@@ -8,3 +8,5 @@ user:
         rotate: 8
 
 hostname: americano
+
+passwordless_sudo:
