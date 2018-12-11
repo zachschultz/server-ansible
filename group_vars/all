@@ -10,3 +10,4 @@ user:
 hostname: americano
 
 passwordless_sudo:
+    - /usr/bin/openvpn* 
