@@ -1,6 +1,6 @@
 user:
     name: icy
-    uid: 1000
+    uid: 1100
     group: icy
     shell: /usr/bin/zsh
     log:
