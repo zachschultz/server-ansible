@@ -1,0 +1,10 @@
+user:
+    name: icy
+    uid: 1000
+    group: icy
+    shell: /usr/bin/zsh
+    log:
+        dir: log
+        rotate: 8
+
+hostname: americano
