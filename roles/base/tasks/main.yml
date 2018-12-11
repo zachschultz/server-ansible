@@ -1,0 +1,12 @@
+---
+- name: Refresh pacman mirrors
+  pacman: update_cache=yes
+
+- name: Set the hostname
+  hostname: name={{ hostname }}
+  when: hostname is defined
+
+- include: shell.yml
+- include: user.yml
+- include: sudo.yml
+- include: journal.yml

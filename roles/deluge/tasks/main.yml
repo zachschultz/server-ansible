@@ -1,0 +1,17 @@
+- name: "Create deluge user"
+  user:
+    name: deluge
+
+- name: "Install deluge software"
+  pacman: name={{ item }} state=present
+  with_items:
+   - python2-mako
+   - pygtk
+   - deluge
+
+- name: "Enable deluged and deluge-web services"
+  systemd: name={{ item }} enabled=yes state=started
+  with_items:
+    - deluged.service
+    - deluge-web.service
+
